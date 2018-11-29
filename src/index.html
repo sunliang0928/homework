@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./scss/index.min.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
@@ -16,7 +16,29 @@
         </header>
         <main class="main">
             <div class="left">
-                1
+                <ul>
+                    <li>正在流行</li>
+                    <li>女装</li>
+                    <li>套装</li>
+                    <li>裙裤</li>
+                    <li>上衣</li>
+                    <li>家具</li>
+                    <li>女鞋</li>
+                    <li>男士</li>
+                    <li>母婴</li>
+                    <li>内衣</li>
+                    <li>美妆</li>
+                    <li>运动</li>
+                    <li>裙裤</li>
+                    <li>上衣</li>
+                    <li>家具</li>
+                    <li>女鞋</li>
+                    <li>男士</li>
+                    <li>母婴</li>
+                    <li>内衣</li>
+                    <li>美妆</li>
+                    <li>运动</li>
+                </ul>
             </div>
             <div class="rigth">
                 2
@@ -24,6 +46,13 @@
         </main>
     </div>
     <script src="./js/flexible.js"></script>
+    <script src="./js/better-scroll.js"></script>
+    <script>
+        var myScroll = new BScroll(".left", {
+            probeType: 2,
+            click: true,
+        })
+    </script>
 </body>
 
 </html>
