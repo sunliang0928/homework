@@ -185,21 +185,38 @@ body,
   overflow: hidden;
 }
 
-.main .left ul {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.main .left ul li {
-  width: 100%;
-  height: 1.33333rem;
-  text-align: center;
-  line-height: 1.33333rem;
-}
-
 .main .rigth {
   width: 70%;
   height: 100%;
-  background: red;
+  overflow: hidden;
+}
+
+.main .rigth div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .rigth div dl {
+  width: 32%;
+  height: 2.66667rem;
+  margin-left: 1.1%;
+  margin-top: 0.26667rem;
+}
+
+.main .rigth div dl dd {
+  width: 100%;
+  height: 2.13333rem;
+}
+
+.main .rigth div dl dd img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.main .rigth div dl dt {
+  width: 100%;
+  height: 0.53333rem;
+  line-height: 0.53333rem;
+  text-align: center;
 }

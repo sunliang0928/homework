@@ -29,21 +29,35 @@ body,
     .left {
         width: 30%;
         overflow: hidden;
-        ul {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            li {
-                width: 100%;
-                height: px2rem(50px);
-                text-align: center;
-                line-height: px2rem(50px);
-            }
-        }
     }
     .rigth {
         width: 70%;
         height: 100%;
-        background: red;
+        overflow: hidden;
+        div {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            dl {
+                width: 32%;
+                height: px2rem(100px);
+                margin-left: 1.1%;
+                margin-top: px2rem(10px);
+                dd {
+                    width: 100%;
+                    height: px2rem(80px);
+                    img {
+                        width: 90%;
+                        margin-left: 5%;
+                    }
+                }
+                dt {
+                    width: 100%;
+                    height: px2rem(20px);
+                    line-height: px2rem(20px);
+                    text-align: center;
+                }
+            }
+        }
     }
 }
