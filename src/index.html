@@ -6,12 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/index.min.css">
 </head>
 
 <body>
     <div class="wrap">
         <header class="header">
+            <div class="header_val">
+                <p>
+                    <</p>
+                        <p>所有商品</p>
+                        <div class="header_img">
+                            <i class="icon iconfont icon-share6"></i>
+                            <i class="icon iconfont icon-eyeopen"></i>
+                        </div>
+            </div>
+            <div class="header_input">
+                <div class="header_seek">
+                    <i class="icon iconfont icon-fangdajing"></i>
+                    <input type="text" placeholder="风衣">
+                </div>
+                <i class="icon iconfont icon-xiaoxi"></i>
+            </div>
+
 
         </header>
         <main class="main">
@@ -269,7 +288,7 @@
     <script src="./js/flexible.js"></script>
     <script src="./js/better-scroll.js"></script>
     <script>
-        var myScroll = new BScroll(".right", {
+        var myScroll = new BScroll(".rigth", {
             probeType: 2,
             click: true,
         })

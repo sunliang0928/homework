@@ -171,7 +171,58 @@ body,
 .header {
   width: 100%;
   height: 1.33333rem;
-  background: blue;
+  background: #f0ebeb;
+}
+
+.header .header_val {
+  width: 100%;
+  height: 0.66667rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .header_val > p {
+  font-size: 0.4rem;
+  margin: 0 20px;
+}
+
+.header .header_val .header_img {
+  width: 2.66667rem;
+  height: 0.66667rem;
+  border: 1px solid #928d8d;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .header_val .header_img > i {
+  font-size: 0.48rem;
+}
+
+.header .header_input {
+  width: 100%;
+  height: 0.66667rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .header_input .header_seek {
+  width: 8rem;
+  height: 0.53333rem;
+  background: #cfcaca;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header .header_input .header_seek > input {
+  border: none;
+  width: 70%;
+  height: 0.53333rem;
+  background: #d1cece;
 }
 
 .main {
