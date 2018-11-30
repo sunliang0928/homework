@@ -73,6 +73,15 @@ body,
     .left {
         width: 30%;
         overflow: hidden;
+        ul {
+            width: 100%;
+            li {
+                width: 100%;
+                height: px2rem(40px);
+                text-align: center;
+                line-height: px2rem(40px);
+            }
+        }
     }
     .rigth {
         width: 70%;
@@ -104,4 +113,9 @@ body,
             }
         }
     }
+}
+
+.list {
+    color: red;
+    background: #ccc;
 }
