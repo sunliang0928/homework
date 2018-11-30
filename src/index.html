@@ -16,7 +16,34 @@
         </header>
         <main class="main">
             <div class="left">
-                1
+                <ul>
+                    <li>推荐</li>
+                    <li>正在流行</li>
+                    <li>女装</li>
+                    <li>套装</li>
+                    <li>裤裙</li>
+                    <li>上衣</li>
+                    <li>家具</li>
+                    <li>女鞋</li>
+                    <li>男士</li>
+                    <li>母婴</li>
+                    <li>内衣</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+                    <li>推荐</li>
+
+                </ul>
             </div>
             <div class="rigth">
                 <div>
@@ -269,10 +296,25 @@
     <script src="./js/flexible.js"></script>
     <script src="./js/better-scroll.js"></script>
     <script>
-        var myScroll = new BScroll(".right", {
+        var myScroll = new BScroll(".rigth", {
             probeType: 2,
             click: true,
         })
+        var ss = new BScroll(".left", {
+            probeType: 2,
+            click: true
+        })
+        var lis = document.querySelectorAll("ul li");
+        for (var i = 0; i < lis.length; i++) {
+
+
+            lis[i].onclick = function() {
+                for (var j = 0; j < lis.length; j++) {
+                    lis[j].classList.remove("list");
+                }
+                this.classList.add("list");
+            }
+        }
     </script>
 </body>
 
